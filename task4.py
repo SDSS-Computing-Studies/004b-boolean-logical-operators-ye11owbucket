@@ -19,4 +19,11 @@ Enter your name=>Gordon
 You are not a VIP.
 """
 
-VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+
+VIP = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+
+name = str(input("Enter your name: ")).strip()
+if name in VIP:
+    print(f"Hi {name}! You are a VIP!")
+else:
+    print("You are not a VIP.")
