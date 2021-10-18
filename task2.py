@@ -42,3 +42,5 @@ elif sq == int(sq) and cb != int(cb):
     print(f"{number} is only a perfect square")
 elif sq != int(sq) and cb == int(cb):
     print(f"{number} is only a perfect cube.")
+else:
+    exit()
