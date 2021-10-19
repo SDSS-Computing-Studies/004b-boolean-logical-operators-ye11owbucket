@@ -26,3 +26,13 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+y = float(input("Enter a number: "))
+x = float(input("Enter another number: "))
+list1 = [x,y]
+list1.sort()
+a = list1[1]
+wabungus = list1[0]
+if a%wabungus == 0:
+    print(int(wabungus), "is a factor of", int(a))
+else:
+    print (int(wabungus), "is not a factor of", int(a))
